@@ -49,7 +49,7 @@ int main() {
     printf("\nDigite os dados da Carta 2 (Maceió): \n\n");
 
     printf("Digite o Estado (letra de A a H): ");
-    scanf(" %c", &estado2);
+    scanf("%c", &estado2);
 
     printf("Digite o codigo da carta (ex: A01, B03): ");
     scanf("%s", codigo2);
@@ -89,6 +89,8 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
+    
     return 0;
+
 
 }
