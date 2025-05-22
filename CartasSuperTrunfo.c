@@ -25,13 +25,13 @@ int main() {
     printf("Digite os dados da Carta 1 (Pernambuco):\n\n");
 
     printf("Digite o Estado (letra de A a H): ");
-    scanf(" %c", &estado1); // ESPAÇO antes de %c para limpar o buffer
+    scanf(" %c", &estado1);
 
     printf("Digite o codigo da carta (ex: A01, B02): ");
-    scanf("%s", codigo1); // sem & para strings
+    scanf("%s", codigo1);
 
     printf("Digite a cidade: ");
-    scanf("%s", cidade1); // sem & para strings
+    scanf("%s", cidade1);
 
     printf("Digite a populacao: ");
     scanf("%d", &populacao1);
@@ -49,7 +49,7 @@ int main() {
     printf("\nDigite os dados da Carta 2 (Maceió): \n\n");
 
     printf("Digite o Estado (letra de A a H): ");
-    scanf(" %c", &estado2); // ESPAÇO antes de %c para limpar o buffer
+    scanf(" %c", &estado2);
 
     printf("Digite o codigo da carta (ex: A01, B03): ");
     scanf("%s", codigo2);
@@ -67,7 +67,7 @@ int main() {
     scanf("%f", &pib2);
 
     printf("Digite os Pontos Turisticos: ");
-    scanf("%d", &pontosTuristicos2); // corrigido: removida aspa extra
+    scanf("%d", &pontosTuristicos2);
 
     //Saída de dados Carta 1
     printf("\nCarta 1:\n\n");
